@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bro Studio – Freelancers</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b4998e9ce3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="start">
+        <div class="parent-loader">
+            <div class="loader">
+                <div class="loader-item"></div>
+                <div class="loader-item"></div>
+                <div class="loader-item"></div>
+            </div>
+        </div>
+        <main>
+            <div>
+                <div class="container">
+                    <div class="myDIV">
+                        <nav>
+                            <img src="img/logof.png" class="logo">
+                            <p>The Bro Studio</p>
+                            <ul id="side-menu">
+                                <i class="cross fa-solid fa-rectangle-xmark" onclick="closem()"></i>
+                                <li id="navelem"><a href="index.html">Home</a></li>
+                                <li id="navelem"><a href="about.html">About</a></li>
+                                <li id="navelem"><a href="service.html">Services</a></li>
+                                <li id="navelem"><a href="blog.html">Blog</a></li>
+                                <li id="navelem"><a href="contact.html">Contact</a></li>
+                                <li>
+                                    <div class="dark-switch">
+                                        <input type="checkbox" class="checkbox" id="checkbox" onclick="darkmode()">
+                                        <label for="checkbox" class="label">
+                                            <i class='fas fa-sun'></i>
+                                            <i class="fas fa-moon"></i>
+                                            <div class='ball'>
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+                            <i class="cross fa-solid fa-bars-staggered" onclick="openm()"></i>
+                        </nav>
+                    </div>
+                </div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Us</h1><br>
+                <p><i class="fa-solid fa-envelope"></i> contactthebrostudio@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 7319647009,9431697649</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-telegram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Youremail@example.com" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>  
+</div>
+<div class="copyright">
+    <p>Copyright © 2022 The Bro Studio. All Rights Reserved</p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
