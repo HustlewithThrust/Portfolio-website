@@ -71,7 +71,7 @@ body {
 #header {
   width: 100%;
   height: 100vh;
-  background-image: url(img/coverimg.png);
+  background-image: url(coverimg.png);
   background-size: cover;
   background-position: left;
 }
@@ -83,14 +83,14 @@ nav {
 }
 .logo {
   margin: 12px;
-  width: 83px;
+  width: 76px;
 
 }
 nav p{
   color: var(--logo-color);
   font-family:Gloucester MT Extra Condensed;
   font-size: 29px;
-margin-left: -455px;
+margin-left: -23%;
 }
 nav ul li {
   display: inline-block;
@@ -765,7 +765,7 @@ nav .cross {
 /*-------responsive--------*/
 @media screen and (max-width: 768px) {
   #header {
-    background-image: url(img/phoneback.png);
+    background-image: url(phoneback.png);
     background-size: cover;
   }
   .header-text {
